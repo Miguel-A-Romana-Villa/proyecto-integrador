@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer sitio web</title>
+    <link rel="stylesheet" type="text/css" href="./estilos.css" />
 </head>
 <body>
     <header>
-        <h1>PAGINA IMPRESIONANTE</h1>
-        <span>inicio</span>
-        <span>servicios</span>
-        <span>contacto</span>
+        <div>
+            <h1 class="titulo-h1">PAGINA PROYECTO</h1>
+            <div class="menu">
+                <span class="menu-element">inicio</span>
+                <span class="menu-element">servicios</span>
+                <span class="menu-element">contacto</span>
+                <span class="menu-element">ubicanos</span>
+            </div>
+        </div>
     </header>
     <hr>
     <main>
-        <img src="./images/altojardin.png" alt="">
+        <div class="image-portada">
+            <img  src="./images/altojardin.png" alt="">
+        </div>
         <section>
             <article>
                 <h2>LISTA NUMERADA</h2>
-                <p>esta es una lista numerada</p>
+                <p class="texto">esta es una lista numerada</p>
                 <ol>
                     <li>lista 1</li>
                     <li>lista 2</li>
@@ -27,18 +35,34 @@
             </article>
             <article>
                 <h2>LISTA ORDENADA</h2>
-                <P>esta es una lista ordenada sin numeros</P>
+                <P class="texto">esta es una lista ordenada sin numeros</P>
                 <ul>
                     <li>lista 1</li>
                     <li>lista 2</li>
                     <li>lista 3</li>
                 </ul>
             </article>
+            <article>
+                <h2>NINJAS PRIMARIOS</h2>
+                <div class="cards-container">    
+                    <div class="cards">
+                        <img class="image-cards" src="./images/indra.jpg" alt="">
+                    </div>
+                    <div class="cards">
+                        <img class="image-cards" src="./images/rikudoo.jpg" alt="">
+                    </div>
+                    <div class="cards">
+                        <img class="image-cards" src="./images/ashura.jpg" alt="">
+                    </div>
+                </div>    
+            </article>
         </section>
     </main>
     <hr>
     <footer>
-        <p>aqui ira el pie de pagina</p>
+        <div class="content-footer">
+            <p>Bienvenido al pie de Pagina visita</p>
+        </div>
     </footer>
 </body>
 </html>
