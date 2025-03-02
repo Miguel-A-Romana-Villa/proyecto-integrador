@@ -1,0 +1,172 @@
+/* ---------------------------------- ESTILOS HEADER ---------------------------------------------*/
+.sectionMenu{
+    display: flex;
+    flex-direction:row ;
+    margin: 0;
+    width: 100%;
+    height: 89px;
+    background-color:#f1f1f1 ;
+    align-items: center;
+}
+.contentLogo{
+    display: flex;
+    width: 30%;
+    margin-left: 50px;
+}
+.image-logo{
+    width: 60%;
+}
+.contentMenu{
+    width: 70%;
+    display: flex;
+    justify-content:space-around;
+}
+.button-menu{
+    font-size:16px;
+    font-family:'poppins', sans-serif;
+}
+.button-menu:hover{
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color:white
+}
+/* ----------------------------------FIN ESTILOS HEADER ----------------------------------------*/
+
+/* ----------------------------------ESTILOS MAIN INDEX ----------------------------------------*/
+main{
+    margin: 0;
+    height: 100%;
+    width: 80%;
+}
+.content-main{
+    height: 80%;
+    width: 80%;
+    padding-left: 20%;
+    padding-top:5% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+#primer-cuadro{
+    height: 15%;
+}
+#segundo-cuadro{
+    position: relative; 
+    height:40%;
+}
+#image1-segundo-cuadro{
+    position: absolute; 
+    width: 85%;
+}
+#image2-segundo-cuadro{
+    padding-top: 16%;
+    padding-left: 2%;
+    width: 85%;
+    display: flex;
+    align-self: flex-end;
+}
+#primer-parrafo{
+    font-family:'poppins', sans-serif;
+}
+#tercer-cuadro{
+    width: 75%;
+    font-family:'satoshi', sans-serif;
+    font-size: 25px;
+}
+.cuadro-2{
+    height: 50%;
+    width: 50%;
+}
+
+/* ----------------------------------FIN ESTILOS MAIN INDEX ----------------------------------------*/
+/* ---------------------------------- ESTILOS MAIN GENERAL ----------------------------------------*/
+.section-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+}
+.container-general{
+    width: 70%;
+    height: 80%;
+}
+.general-main-button{
+    margin:10px;
+    border:2px solid black;
+    border-radius: 15px;
+    padding: 11px;
+    background-color: black;
+    color:white;
+    font-family: 'satoshi' sans-serif;
+    font-size: 20px;
+
+}
+.container-general-section1{
+    width: 100%;
+    height: 15%;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'satoshi', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container-general-section2{
+    width: 100%;
+    height: 15%;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    font-family: 'satoshi', sans-serif;
+    font-size: 16px;
+}
+.container-general-section2-border{
+    border: 2px solid yellow;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: yellow;
+}
+.container-general-section3{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.container-general-section3-formulario{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+.section3-formulario-subsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.section3-input{
+    margin-left: 5px;
+    width: 20px;
+    transform: scaleX(1.5);
+}
+.section3-input::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Para chrome */
+    margin: 0;
+}
+
+.section3-input[type="number"] {
+    -moz-appearance: textfield; /* Para Firefox */
+    
+}
+
+/* ----------------------------------FIN ESTILOS MAIN GENERAL ----------------------------------------*/

@@ -3,66 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primer sitio web</title>
-    <link rel="stylesheet" type="text/css" href="./estilos.css" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <title>Proyecto Integrador</title>
 </head>
 <body>
     <header>
-        <div>
-            <h1 class="titulo-h1">PAGINA PROYECTO</h1>
-            <div class="menu">
-                <span class="menu-element">inicio</span>
-                <span class="menu-element">servicios</span>
-                <span class="menu-element">contacto</span>
-                <span class="menu-element">ubicanos</span>
+        <section class="sectionMenu">
+            <div class="contentLogo">
+                <img class="image-logo" src="./images/LOGOHENRY.png" alt="">
             </div>
-        </div>
+            <div class="contentMenu">
+                <a  href="./index.html">
+                    <button class="button-menu">Home</button>   
+                </a>
+                <a  href="./generar-contraseña.html">
+                    <button class="button-menu">Generar contraseña</button>
+                </a >
+                <a  href="./caja-fuerte.html">
+                    <button class="button-menu">Caja Fuerte</button>
+                </a >
+                <a  href="./monitoreo.html">
+                    <button class="button-menu">Monitoreo de actividad</button>
+                </a >
+                <a  href="./gestion-usuarios.html">
+                    <button class="button-menu">Gestion de usuarios</button>
+                </a> 
+            </div>
+        </section>
     </header>
-    <hr>
     <main>
-        <div class="image-portada">
-            <img  src="./images/altojardin.png" alt="">
-        </div>
-        <section>
-            <article>
-                <h2>LISTA NUMERADA</h2>
-                <p class="texto">esta es una lista numerada</p>
-                <ol>
-                    <li>lista 1</li>
-                    <li>lista 2</li>
-                    <li>lista 3</li>
-                </ol>
-            </article>
-            <article>
-                <h2>LISTA ORDENADA</h2>
-                <P class="texto">esta es una lista ordenada sin numeros</P>
-                <ul>
-                    <li>lista 1</li>
-                    <li>lista 2</li>
-                    <li>lista 3</li>
-                </ul>
-            </article>
-            <article>
-                <h2>NINJAS PRIMARIOS</h2>
-                <div class="cards-container">    
-                    <div class="cards">
-                        <img class="image-cards" src="./images/indra.jpg" alt="">
-                    </div>
-                    <div class="cards">
-                        <img class="image-cards" src="./images/rikudoo.jpg" alt="">
-                    </div>
-                    <div class="cards">
-                        <img class="image-cards" src="./images/ashura.jpg" alt="">
-                    </div>
-                </div>    
-            </article>
+        <section class="content-main">
+            <div>
+                <div id="primer-cuadro">
+                    <p id="primer-parrafo">Seguridad Personalizada</p>
+                </div>
+                <div id="segundo-cuadro">
+                    <img id="image1-segundo-cuadro" src="./images/henry-security-SAS.png" alt="">
+                    <img id="image2-segundo-cuadro" src="./images/fondohenry-security-SAS.png" alt="">
+                </div>
+                <div id="tercer-cuadro">
+                    <p>Protegemos tus datos, impulsamos tu confianza</p>
+                </div>
+            </div>
+            <div>
+                <img src="./images/pagina-segura.png" alt="">
+            </div>
         </section>
     </main>
-    <hr>
     <footer>
-        <div class="content-footer">
-            <p>Bienvenido al pie de Pagina visita</p>
-        </div>
+
     </footer>
 </body>
 </html>

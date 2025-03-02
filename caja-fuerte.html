@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <title>Proyecto Integrador</title>
+</head>
+<body>
+    <header>
+        <section class="sectionMenu">
+            <div class="contentLogo">
+                <img class="image-logo" src="./images/LOGOHENRY.png" alt="">
+            </div>
+            <div class="contentMenu">
+                <a  href="./index.html">
+                    <button class="button-menu">Home</button>   
+                </a>
+                <a  href="./generar-contraseña.html">
+                    <button class="button-menu">Generar contraseña</button>
+                </a >
+                <a  href="./caja-fuerte.html">
+                    <button class="button-menu">Caja Fuerte</button>
+                </a >
+                <a  href="./monitoreo.html">
+                    <button class="button-menu">Monitoreo de actividad</button>
+                </a >
+                <a  href="./gestion-usuarios.html">
+                    <button class="button-menu">Gestion de usuarios</button>
+                </a> 
+            </div>
+        </section>
+    </header>
+    <body>
+        <main>
+            <section class="section-container">
+                <div class="container-general">
+                    <div class="container-general-section1">
+                            Asistente de Seguridad
+                    </div>
+                    <div class="container-general-section2">
+                            <p class="container-general-section2-border">CAJA FUERTE</p>
+                    </div>
+                    <div class="container-general-section3">
+                            <form action="">
+                                <div>
+                                    <label for="codigo-secreto">Codigo secreto</label>
+                                    <input type="text" name="codigo-secreto">
+                                    <label for="cantidad-intentos">Cantidad de intentos</label>
+                                    <input type="number" name="cantidad-intentos">
+                                    <button class="general-main-button">GUARDAR</button>
+                                </div>
+                                <div>
+                                    <label for="codigo-validable">Validar codigo secreto</label>
+                                    <input type="text" name="codigo-validable">
+                                    <button class="general-main-button">VALIDAR</button>
+                                    <button class="general-main-button">RESET</button>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</body>
+</html>
